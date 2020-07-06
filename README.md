@@ -1,7 +1,7 @@
 # Unicorn's HANA Express
 This repository is part of a set of internal instructions, so some pieces of it will make no sense.
 
-Sample terraform setup for pre-built image of HANA express and Windows VM, to be used in a VPC. This works if the network and subnetwork have been setup already.
+Sample deployment manager and terraform setups for pre-built images of HANA express and Windows VM, to be used in a VPC. This works if the network and subnetwork have been setup already.
 
 Sorry, I cannot distribute the pre-built iamge, but you can take one yourself in Google Cloud console > Compute Engine > Images.
 
