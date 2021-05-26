@@ -27,7 +27,7 @@ resources:
     - boot: true
       autoDelete: true
       initializeParams:
-        sourceImage: projects/xx-resources/global/images/sap-hxe-xx
+        sourceImage: projects/xx-resources/global/images/sap-hxe-xx-update
         diskType: zones/{{ properties["zone"] }}/diskTypes/pd-ssd
     networkInterfaces:
     - network: {{ properties["network"] }}
